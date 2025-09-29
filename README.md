@@ -1,4 +1,4 @@
 # Edge-Aware Diffusion-Annealed Image Resizing (EASR)
 Edge-Aware Diffusion-Annealed Image Resizing (EASR) is a method for efficient image resizing and sharpening. It combines antialiasing prefiltering for downscaling, a well-defined geometric resampling baseline for upscaling, an edge-weighted nonuniform unsharp mask, and a Perona--Malik style anisotropic diffusion on the luminance channel that acts as a fine-grained, diffusion-inspired antialiasing step. The resulting procedure is interpretable, training-free, and near-linear in the number of pixels, making it suitable both for practical deployments and for rigorous ablation in academic settings.
 
-The core module is provided as easr.py, a minimal driver as demo_easr.py, and the full gallery bundle as easr_gallery.zip.
+The core module is provided as **easr.py**, a minimal driver as **demo_easr.py**, and the full gallery bundle as **easr_gallery.zip**.
